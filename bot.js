@@ -133,7 +133,7 @@ olddigibot.on('message', message => {
         message.reply("Here is a link to the OldDigibox Archive:\nhttps://chitco.sharepoint.com/:f:/g/EgLrSVVkVZtFifvBcHfsXRkBKFSFO2GCslPWp_zNc10n4A?e=28twKd")
     }
     
-    if (args[0] === 'youtube' or 'yt'
+    if (args[0] === 'youtube' || args[0] == 'yt')
         message.reply("Here is a link to the OldDigibox YouTube channel:\nhttps://www.youtube.com/channel/UCXFM2yYtQ3NmMcD33OFZQKg")
     }
 
