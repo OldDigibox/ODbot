@@ -1,0 +1,18 @@
+{
+    "name": "dlddigibot",
+    "version": "1.2.0",
+    "description": "a discord bot running on node.js ",
+    "main": "bot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node bot.js"
+    },
+    "author": "404invalid-user",
+    "license": "MIT",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "discord.js": "^12.3.1",
+        "express": "^4.17.1",
+        "request": "^2.88.2"
+    }
+}
