@@ -132,6 +132,10 @@ olddigibot.on('message', message => {
     if (args[0] === 'archive') {
         message.reply("Here is a link to the OldDigibox Archive:\nhttps://chitco.sharepoint.com/:f:/g/EgLrSVVkVZtFifvBcHfsXRkBKFSFO2GCslPWp_zNc10n4A?e=28twKd")
     }
+    
+    if (args[0] === 'youtube' or 'yt'
+        message.reply("Here is a link to the OldDigibox YouTube channel:\nhttps://www.youtube.com/channel/UCXFM2yYtQ3NmMcD33OFZQKg")
+    }
 
 
     //fun commands
