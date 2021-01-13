@@ -36,7 +36,7 @@ module.exports = {
         var prefix = guild.prefix
 
         let helpEmbed = new Discord.MessageEmbed()
-            .setAuthor('olddigibot', `${ImgUrl}`, `${website}`)
+            .setAuthor('olddigibot', `${imgUrl}`, `${website}`)
             .setColor(`${colour}`)
             .setTitle('help with OldDigibot')
             .setURL(`${website}`)
