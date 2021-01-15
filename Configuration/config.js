@@ -1,6 +1,6 @@
 module.exports = {
 	defaultPrefix: ":",
-	websiteURL: "https://olddigibox.com/",
+	websiteURL: "https://olddigibox.com/discord/bot",
 	maintainers: ["137589790538334208"],
 
 	colors: {
