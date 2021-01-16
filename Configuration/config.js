@@ -1,5 +1,5 @@
 module.exports = {
-	defaultPrefix: ":",
+	defaultPrefix: ";",
 	websiteURL: "https://olddigibox.com/discord/bot",
 	maintainers: ["137589790538334208"],
 
