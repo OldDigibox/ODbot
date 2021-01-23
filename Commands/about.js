@@ -1,10 +1,12 @@
 const moment = require("moment");
 const { version } = require("../package.json");
 const { MessageEmbed } = require("discord.js");
+require
 
 module.exports = async({ client, config }, msg) => {
-	const uptime = moment(config.startupTime).fromNow(true);
-
+	//const uptime = moment(config.startupTime).fromNow(true);
+	  const uptime =  moment.duration(client.uptime).format("D [days], H [hours], m [minutes], s [seconds]")
+	  
 	let aboutEmbed = new MessageEmbed()
 		// .setAuthor(client.user.username, client.user.avatarURL(), config.websiteURL)
 		.setColor(config.colors.default)
