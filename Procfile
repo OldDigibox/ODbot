@@ -1,2 +1,2 @@
-worker: node olddigibot-bot.js
+worker: node bot.js
 
