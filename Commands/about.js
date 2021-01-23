@@ -1,7 +1,7 @@
 const moment = require("moment");
 const { version } = require("../package.json");
 const { MessageEmbed } = require("discord.js");
-require
+require("moment-duration-format");
 
 module.exports = async({ client, config }, msg) => {
 	//const uptime = moment(config.startupTime).fromNow(true);
