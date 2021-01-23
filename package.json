@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node bot.js"
     },
-    "author": "SunburntRock89",
+    "author": "Old Digibox Development Team",
     "license": "MIT",
     "dependencies": {
         "chainfetch": "^1.2.2",
