@@ -1,3 +1,3 @@
 module.exports = async({ client }) => {
-	console.log(`[For your information] Bot successfully logged in as ${client.user.tag} `);
+	console.log(`[FOR YOUR INFORMATION] Bot successfully logged in as ${client.user.tag} `);
 };
