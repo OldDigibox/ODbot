@@ -2,4 +2,5 @@ module.exports = async({ client, config }, msg) => msg.reply(`Here is a permanen
 module.exports.info = {
         name: "permalink",
         description: "Sends a permanent link to the Discord server",
+        aliases: ["invite", "serverlink",],
 };

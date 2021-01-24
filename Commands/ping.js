@@ -17,4 +17,5 @@ module.exports = async(client, msg) => {
 module.exports.info = {
 	name: "Ping",
 	description: "Displays the latency to Discord",
+	aliases: ["latency"],
 };

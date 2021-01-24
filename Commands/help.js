@@ -29,4 +29,5 @@ module.exports = async({ client, config, commands }, msg) => {
 module.exports.info = {
 	name: "help",
 	description: "Views a list of all commands.",
+	aliases: ["commands", "bot-cmds"],
 };
