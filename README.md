@@ -36,6 +36,9 @@ Displays the latency to Discord
     
 ;youtube
 Link to the YouTube channel
+
+;repo
+Sends a link to the bot's source repository
 ```
 ### TODO LIST
 
