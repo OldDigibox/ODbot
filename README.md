@@ -9,36 +9,37 @@
 ```
 ;8ball
 Functions as a Magic 8-Ball, will predict and answer questions at random
-    
-;about    
+
+;about
 About the bot
-        
+
 ;archive
 Link to the archive
-    
+
 ;coin
 Flip a coin
-    
+
 ;dice
 Rolls a dice.
-    
+
 ;github
-Link to the Old Digibox GitHub organisation, where you can check out some of our open source projects.
-    
+Link to the Old Digibox GitHub organisation,
+where you can check out some of our open source projects.
+
 ;help
 Views a list of all commands.
 
 ;permalink
 Sends a permanent link to the Discord server
-    
+
 ;ping
 Displays the latency to Discord
-    
-;youtube
-Link to the YouTube channel
 
 ;repo
-Sends a link to the bot's source repository
+Link to the GitHub repository of the bot
+
+;youtube
+Link to the YouTube channel
 ```
 ### TODO LIST
 
