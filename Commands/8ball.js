@@ -36,5 +36,5 @@ module.exports = (_, msg, suffix) => {
 
 module.exports.info = {
 	name: "8ball",
-	description: "Functions similarly to a Magic 8-Ball, will predict and answer questions at random",
+	description: "Functions as a Magic 8-Ball, will predict and answer questions at random",
 };

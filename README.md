@@ -8,7 +8,7 @@
 ### AVAILABLE COMMANDS:
 ```
 ;8ball
-Functions similarly to a Magic 8-Ball, will predict and answer questions at random
+Functions as a Magic 8-Ball, will predict and answer questions at random
     
 ;about    
 About the bot
