@@ -41,7 +41,3 @@ Link to the GitHub repository of the bot
 ;youtube
 Link to the YouTube channel
 ```
-### TODO LIST
-
-1. Add mention menu
-2. Reimplement custom prefixes
