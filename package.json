@@ -12,6 +12,7 @@
     "dependencies": {
         "chainfetch": "^1.2.2",
         "discord.js": "^12.3.1",
-        "moment": "^2.29.1"	
-     }
+        "moment": "^2.29.1",
+        "moment-duration-format": "^2.3.2"
+    }
 }

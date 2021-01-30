@@ -2,3 +2,4 @@ Configuration/auth.js
 node_modules
 .vs/
 gitpull.bat
+autopull.sh
