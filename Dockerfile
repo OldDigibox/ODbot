@@ -9,4 +9,4 @@ COPY / .
 RUN npm install
 
 RUN chmod +x /digibot/entrypoint.sh
-ENTRYPOINT [ "entrypoint.sh" ]
+ENTRYPOINT [ "/digibot/entrypoint.sh" ]
