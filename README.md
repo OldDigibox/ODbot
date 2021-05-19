@@ -41,3 +41,19 @@ Link to the GitHub repository of the bot
 ;youtube
 Link to the YouTube channel
 ```
+
+# RUNNING IN DOCKER
+
+```bash
+docker run -e TOKEN="<your-bot-token-here>" --restart=unless-stopped cobaltdocker/digibot
+```
+or for compose:
+```yml
+version: "3"
+services:
+  digibot:
+    image: cobaltdocker/digibot
+    environment:
+      TOKEN: "<your-bot-token-here>"
+    container-name: digibot
+    restart: unless-stopped
