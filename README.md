@@ -2,7 +2,6 @@
 # ![](https://media.discordapp.net/attachments/709165954931621929/802657285339086858/OldDigibot_Logo.png)
 
 ### An open source bot for the Old Digibox community server
-![](https://img.shields.io/docker/pulls/mashape/kong.svg)
   
 
 ### AVAILABLE COMMANDS:
