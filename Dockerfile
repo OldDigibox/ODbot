@@ -8,4 +8,5 @@ WORKDIR /digibot
 COPY / .
 RUN npm install
 
-ENTRYPOINT [ "/digibot/entrypoint.sh" ]
+RUN chmod +x /digibot/entrypoint.sh
+ENTRYPOINT [ "entrypoint.sh" ]
