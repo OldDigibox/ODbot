@@ -6,7 +6,7 @@ RUN apk add --no-cache gettext && \
 WORKDIR /digibot
 COPY src/ .
 
-RUN npm install && \
+RUN npm install & \
     envsubst < /digibot/Configuration/auth-template.js > /digibot/Configuration/auth.js
 
 ENTRYPOINT [ "node", "/digibot/bot.js" ]
