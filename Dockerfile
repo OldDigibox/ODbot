@@ -1,6 +1,7 @@
 FROM node:fermium-alpine
 
 RUN apk add --no-cache gettext && \
+    rm -rf /var/cache/apk/* /var/lib/apk/* && \
     mkdir -pv /digibot
     
 WORKDIR /digibot
