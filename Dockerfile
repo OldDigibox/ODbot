@@ -7,6 +7,6 @@ WORKDIR /digibot
 COPY src/ .
 
 RUN npm install && \
-    envsubst < ./Configuration/auth-template.js > ./Configuration/auth.js
+    envsubst < /digibot/Configuration/auth-template.js > /digibot/Configuration/auth.js
 
 ENTRYPOINT [ "npm", "start" ]
