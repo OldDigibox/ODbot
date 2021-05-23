@@ -56,3 +56,4 @@ services:
       TOKEN: "<your-bot-token-here>"
     container-name: digibot
     restart: unless-stopped
+```
