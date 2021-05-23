@@ -1,12 +1,12 @@
 FROM node:fermium-alpine
 
-RUN apk add --no-cache gettext curl
-
-RUN mkdir -pv /digibot
+RUN apk add --no-cache gettext curl && \
+    mkdir -pv /digibot
+    
 WORKDIR /digibot
-
 COPY / .
-RUN npm install
 
-RUN chmod +x /digibot/entrypoint.sh
+RUN npm install && \
+    chmod +x /digibot/entrypoint.sh
+    
 ENTRYPOINT [ "/digibot/entrypoint.sh" ]
