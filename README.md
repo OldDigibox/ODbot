@@ -46,7 +46,7 @@ Link to the YouTube channel
 ```bash
 docker run -d -e TOKEN="<your-bot-token-here>" --restart=unless-stopped cobaltdocker/digibot
 ```
-or for compose:
+or for compose, add this into your docker-compose.yml file and run `docker-compose up -d`:
 ```yml
 version: "3"
 services:
