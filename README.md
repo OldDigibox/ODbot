@@ -44,7 +44,7 @@ Link to the YouTube channel
 # RUNNING IN DOCKER
 
 ```bash
-docker run -e TOKEN="<your-bot-token-here>" --restart=unless-stopped cobaltdocker/digibot
+docker run -d -e TOKEN="<your-bot-token-here>" --restart=unless-stopped cobaltdocker/digibot
 ```
 or for compose:
 ```yml
