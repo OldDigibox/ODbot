@@ -2,7 +2,6 @@
 # ![](https://media.discordapp.net/attachments/709165954931621929/802657285339086858/OldDigibot_Logo.png)
 
 ### An open source bot for the Old Digibox community server
-
   
 
 ### AVAILABLE COMMANDS:
@@ -40,4 +39,21 @@ Link to the GitHub repository of the bot
 
 ;youtube
 Link to the YouTube channel
+```
+
+# RUNNING IN DOCKER
+
+```bash
+docker run -d -e TOKEN="<your-bot-token-here>" --restart=unless-stopped cobaltdocker/digibot
+```
+or for compose, add this into your docker-compose.yml file and run `docker-compose up -d`:
+```yml
+version: "3"
+services:
+  digibot:
+    image: cobaltdocker/digibot
+    environment:
+      TOKEN: "<your-bot-token-here>"
+    container-name: digibot
+    restart: unless-stopped
 ```
